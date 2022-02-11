@@ -1,0 +1,13 @@
+Type a String with some parentheses and no white space (or control-Z to end):
+((()())())
+Those parentheses are balanced.
+Type a String with some parentheses and no white space (or control-Z to end):
+((()())(())
+Those parentheses are not balanced.
+Type a String with some parentheses and no white space (or control-Z to end):
+((()()))))
+Those parentheses are not balanced.
+Type a String with some parentheses and no white space (or control-Z to end):
+((()()())))())
+Those parentheses are not balanced.
+Type a String with some parentheses and no white space (or control-Z to end):
