@@ -1,0 +1,47 @@
+Available commands:
+?: to print this menu
+H: to print this menu
+R n: to read a value for polynomial n
+P n: to print the value of polynomial n
++ i j k: to add polynomials i and j and store result in k
+- i j k: to subtract polynomials j from i and store result in k
+E n v: to evaluate polynomial n with its variable set to value v
+Q: to quit
+
+r 0
+Reading polynomial 0
+Input a polynomial by specifying the variable and all terms in any order.
+Each term is specified by an integer coefficient and
+a non-negative integer exponent.
+Indicate END by specifying a dummy term with
+a zero coefficient and/or a negative exponent.
+
+x 4 1 -3 2 2 0 0
+p 0
+Printing polynomial 0: write called
+
+r 1
+Reading polynomial 1
+Input a polynomial by specifying the variable and all terms in any order.
+Each term is specified by an integer coefficient and
+a non-negative integer exponent.
+Indicate END by specifying a dummy term with
+a zero coefficient and/or a negative exponent.
+x 5 0 -4 1 3 2 3 -1
+p 1
+Printing polynomial 1: write called
+
++ 0 1 2
+plus called
+Printing the sum of the number 0 and polynomial 1: write called
+
+plus called
+Now, printing the sum of polynomial 0 and the number 1: write called
+
+The sum of polynomials 0 and 1 is being saved in polynomial 2
+plus called
+p 2
+Printing polynomial 2: write called
+
+q
+Thank you.  Bye!

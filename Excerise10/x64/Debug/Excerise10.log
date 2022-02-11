@@ -1,0 +1,6 @@
+﻿  simplepoly10.cpp
+C:\Users\13308\Desktop\Excerise10\simplepoly10.cpp(117,3): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\13308\Desktop\Excerise10\simplepoly10.cpp(121,11): warning C4018: '>=': signed/unsigned mismatch
+  simplepolydr10.cpp
+  Generating Code...
+  Excerise10.vcxproj -> C:\Users\13308\Desktop\Excerise10\x64\Debug\Excerise10.exe

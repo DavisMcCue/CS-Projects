@@ -1,0 +1,81 @@
+Available commands:
+?: to print this menu
+H: to print this menu
+R n: to read a value for polynomial n
+P n: to print the value of polynomial n
++ i j k: to add polynomials i and j and store result in k
+- i j k: to subtract polynomials j from i and store result in k
+E n v: to evaluate polynomial n with its variable set to value v
+Q: to quit
+r 0
+Reading polynomial 0
+Input a polynomial by specifying the variable and all terms in any order.
+Each term is specified by an integer coefficient and
+a non-negative integer exponent.
+Indicate END by specifying a dummy term with
+a zero coefficient and/or a negative exponent.
+y 4 1 -3 2 2 0 1 100 -1 6 0
+p0
+Printing polynomial 0: write called
+
+r1
+Reading polynomial 1
+Input a polynomial by specifying the variable and all terms in any order.
+Each term is specified by an integer coefficient and
+a non-negative integer exponent.
+Indicate END by specifying a dummy term with
+a zero coefficient and/or a negative exponent.
+y 5 0 -4 1 6 2 3 -1
+p1
+Printing polynomial 1: write called
+
++ 0 1 2
+plus called
+Printing the sum of the number 0 and polynomial 1: write called
+
+plus called
+Now, printing the sum of polynomial 0 and the number 1: write called
+
+The sum of polynomials 0 and 1 is being saved in polynomial 2
+plus called
+p 2
+Printing polynomial 2: write called
+
+- 2 1 3
+minus called
+Printing the difference of the number 2 and polynomial 1: write called
+
+minus called
+Now, printing the difference of polynomial 2 and the number 1: write called
+
+The difference of polynomials 2 and 1 is being saved in polynomial 3
+minus called
+p3
+Printing polynomial 3: write called
+
+- 0 3 4
+minus called
+Printing the difference of the number 0 and polynomial 3: write called
+
+minus called
+Now, printing the difference of polynomial 0 and the number 3: write called
+
+The difference of polynomials 0 and 3 is being saved in polynomial 4
+minus called
+p 4
+Printing polynomial 4: write called
+
+- 4 0 5
+minus called
+Printing the difference of the number 4 and polynomial 0: write called
+
+minus called
+Now, printing the difference of polynomial 4 and the number 0: write called
+
+The difference of polynomials 4 and 0 is being saved in polynomial 5
+minus called
+p5
+Printing polynomial 5: write called
+
+q
+Thank you.  Bye!
