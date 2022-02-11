@@ -1,0 +1,29 @@
+5
+10 20 30 40
+50 60 70
+80 90
+100
+
+p
+Reporting distance chart:
+10 20 30 40
+50 60 70
+80 90
+100
+
+g 0 3
+The distance from city 0 to city 3 is 100
+G 2 0
+The distance from city 2 to city 0 is 70
+s 2 0 77
+s 3 3 150
+g 2 0
+The distance from city 2 to city 0 is 70
+g 3 3
+The distance from city 3 to city 3 is 0
+p
+Reporting distance chart:
+10 20 30 40
+50 60 70
+80 90
+100
