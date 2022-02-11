@@ -1,0 +1,55 @@
+I 50
+I 30
+I 75
+H
+S
+P
+TR
+TI
+TO
+I 20
+I 60
+H
+S
+P
+TR
+TI
+TO
+I 40
+I 85
+H
+S
+P
+TR
+TI
+TO
+I 25
+I 70
+I 80
+H
+S
+P
+TR
+TI
+TO
+D 75
+H
+S
+P
+TR
+TI
+TO
+D 50
+H
+S
+P
+TR
+TI
+TO
+R
+P
+TR
+TI
+TO
+Q
+
