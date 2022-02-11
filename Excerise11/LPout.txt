@@ -1,0 +1,29 @@
+The following choices are available:
+ M   Fill the table with the specified number of random records
+ S   Print the size (number of stored records)
+ I   Insert a new record with specified int key and double data
+ R   Remove a record with a specified int key
+ ?   Check whether a specified int key is present
+ F   Find the data associated with a specified int key
+ Q   Report stats and quit this test program
+m 9100
+Filling in 9100 random data items!
+s
+The table size is 7964
+i 1500 2000
+The record with key: 1500 and data: 2000 has been inserted.
+r 1000
+The record with key: 1000 is no longer in the table.
+? 2000
+That key: 2000 is not present.
+f 2500
+That key: 2500 is not present.
+f 1500
+The data of key: 1500 is: 2000
+q
+Here are your stats:
+Min comparisions = 1
+Max comparisions = 5640
+Average comparisons = 28.5294
+Total number of searches = 9105
+Bye, Hasher!
